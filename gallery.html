@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="Keyword" content="Tyler, resume, portfolio"/>
+		<meta name="Description" content="Tyler Trumpie's Digital Portfolio"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>Tyler Trumpie's R&eacute;sum&eacute;</title>
+	</head>
+	
+	<body>
+		<!--BANNER STARTS HERE-->
+		<header>
+			<div class="boxes2">
+				<div class="boxh">
+					<a href="index.html"><img class="logo" src="images/logo.png" alt="Signature"/></a>
+					
+				</div>
+				<div class="boxh2">
+					Tyler's Gallery
+				</div>
+				<a href="index.html" class="boxh4">
+					Back
+				</a>
+			</div>
+		</header>
+		
+		<!--NAVIGATION-->
+		<!--THE MAIN CONTENT STARTS HERE-->
+		<div class="content">
+		<!--CODE THAT MAKES THE MAIN FLEX CONTAINER-->
+			<div class="boxes">
+				<div class="box boxh3">
+					<h1>Websites</h1>
+				</div>
+			</div>
+			<div class="boxes">
+			<!-- CODE THAT MAKES THE FLEX BOX  THE BOX IS SPECS THAT APPLY TO ALL FLEX BOXES  THE BOX1 BOX2 BOX3 ARE SPECIFIC SPECS-->
+				<!--<div class="box box1 boxi">
+					<img class="center" src="images/tyler.jpg" alt="Tyler Trumpie">
+				</div>-->
+				<div class="box box5 boxa">
+					<h1>Biome Life</h1>
+				</div>
+				<div class="box box7">
+						<a href="Capstone/index.html" class="boxi"><img src="Capstone/images/logo3.png" alt="Biome life logo" class="boxi"/></a>
+				</div>
+				
+			</div>
+			<div class="boxes">
+				<div class="box box8">
+					<p>Biome Life is a website aimed towards third graders to help teach them about the diversity of life and weather in each biome.</p>
+				</div>
+			</div>
+			<!--Horizontal rule-->
+			<hr class="invis"/>
+			<hr class="lite"/>
+			<hr class="dark"/>
+			<hr class="lite"/>
+			<hr class="invis"/>
+			
+			<div class="boxes">
+				<div class="box boxh3">
+					<h1>Games</h1>
+				</div>
+			</div>
+			<div class="boxes">
+			<!-- CODE THAT MAKES THE FLEX BOX  THE BOX IS SPECS THAT APPLY TO ALL FLEX BOXES  THE BOX1 BOX2 BOX3 ARE SPECIFIC SPECS-->
+				
+				<div class="box box5 boxa">
+					<h1>The Pullforce</h1>
+				</div>
+				<div class="box box7">
+						<a href="games/The_Pullforce.exe" class="boxi"><img src="images/pullforce.png" alt="The Pullforce"/></a>
+				</div>
+				
+			</div>
+			<div class="boxes">
+				<div class="box box8">
+					<p>The Pullforce is a platformer puzzle game aimed towards people of all ages.  You must control Cirrus the cloud and get to the portal at the end of the room to win.</p>
+				</div>
+			</div>
+			<hr class="gray"/>
+			<div class="boxes">
+			<!-- CODE THAT MAKES THE FLEX BOX  THE BOX IS SPECS THAT APPLY TO ALL FLEX BOXES  THE BOX1 BOX2 BOX3 ARE SPECIFIC SPECS-->
+				
+				<div class="box box5 boxa">
+					<h1>Tome of Elements</h1>
+				</div>
+				<div class="box box7">
+						<a href="https://vendicantninja.itch.io/tome-of-elements" class="boxi"><img src="images/tome.png" alt="Tome of Elements"/></a>
+				</div>
+				
+			</div>
+			<div class="boxes">
+				<div class="box box8">
+					<p>Tome of Elements is an adventure game aimed towards a middle school audience.  You must help Ryleus find and claim the Tome of Elements to win.</p>
+				</div>
+			</div>
+			<hr class="gray"/>
+			<div class="boxes">
+			<!-- CODE THAT MAKES THE FLEX BOX  THE BOX IS SPECS THAT APPLY TO ALL FLEX BOXES  THE BOX1 BOX2 BOX3 ARE SPECIFIC SPECS-->
+				
+				<div class="box box5 boxa">
+					<h1>Othergrowth</h1>
+				</div>
+				<div class="box box7">
+						<a href="https://vendicantninja.itch.io/othergrowth" class="boxi"><img src="images/othergrowth.png" alt="Othergrowth"/></a>
+				</div>
+				
+			</div>
+			<div class="boxes">
+				<div class="box box8">
+					<p>Othergrowth is a puzzle platformer aimed towards an early college/late high school audience.  You must take control of both Sonny and Leo to save their sister in an alternate dimension full of puzzles and danger.</p>
+				</div>
+			</div>
+		</div>
+		<!--MAIN CONTENT ENDS HERE-->
+		
+		<!--FOOTER BEGINS HERE-->
+		<footer>
+			<div class="boxes">
+				
+				<article class="fbox fbox2">
+					Last Updated:
+						<!--JAVASCRIPT STARTS HERE-->
+						<script>
+							var mydate=new Date()
+							var year=mydate.getYear()
+							if(year<1000) year+=1900
+							var day=mydate.getDay()
+							var month=mydate.getMonth()
+							var daym=mydate.getDate()
+							if (daym<10) daym="0"+daym
+							var dayarray=new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+							var montharray=new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+							document.write(""+montharray[month]+" "+daym+","+year+"")
+						</script>
+						<!--JAVASCRIPT ENDS HERE-->
+				</article>
+				<article class="fbox fbox3">
+					<a href="me.html">About me</a>
+				</article>
+			</div>
+		</footer>
+	</body>
+</html>

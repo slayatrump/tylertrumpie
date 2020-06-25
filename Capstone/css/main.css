@@ -1,0 +1,342 @@
+/* @import url('typeplate.css'); */ Kuzma
+html
+{
+	background-color: #112406;
+}
+body
+{
+	margin: 0;
+	padding: 0px;
+	color: #000000;
+	font-size: .9em;
+	background-color: #112406;
+	font-family: verdana;
+}
+
+/*FORMATTING FOR THE ANIMAL PICTURES*/
+img.animal
+{
+	max-width: 13em;
+	float: left;
+	padding: 1em;
+}
+
+figure
+{
+	height: 125px;
+	width: 140px;
+}
+
+img.center
+{
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+img.word
+{
+	display: block;
+	margin: auto;
+}
+
+h1
+{
+	font-size: 4em;
+	text-align: center;
+}
+
+.curve
+{
+	border-radius: 10em;
+}
+
+.txtcenter
+{
+	text-align: center;
+	/*float: middle;*/
+}
+
+h3.habitat
+{
+	float: left;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #EDDAD3;
+}
+
+a:visited
+{
+	color: #EDDAD3;
+}
+
+a:hover
+{
+	color: #EDDAD3;
+}
+
+a:active
+{
+	color: #EDDAD3;
+}
+
+.logo
+{
+	width: 2em;
+}
+
+/* FORMATTING FOR HEADER */
+
+header
+{
+	font-family: "Tempus Sans ITC", comic sans ms, verdana;
+	font-size: 6em;
+	color: #EDDAD3;
+	/*height: 2em;*/
+	border: 10px solid #111c75;
+	background-color: #6071ff;
+	/*text-align: center;*/
+}
+
+/*FORMATTING FOR NAVIGATION*/
+
+nav
+{
+	font-family: verdana;
+	font-size: .75em;
+	/*color: #000000;*/
+	border: 4px solid #111c75;
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 2em 2em 2em 2em;
+	background-color: #497f29;
+}
+
+ul.nav
+{
+	list-style-type: none;
+	display: inline;
+}
+
+ul.nav li
+{
+	float: left;
+	padding: 3px 6px 3px 6px;
+}
+
+/* FORMATTING FOR VIDEO*/
+
+.video-container
+{
+	position: relative;
+}
+
+video
+{
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+
+iframe
+{
+	display: block;
+	margin: 0 auto;
+}
+
+.right
+{
+	/* background-color: #000000; */
+}
+
+/* FORMATTING FOR ARTICLES */
+
+article
+{
+	font-family: verdana;
+	color: #000000;
+	font-size: 1em;
+	/* border: 1px solid #000000; */
+}
+
+/* FORMATTING FOR FOOTER */
+
+footer
+{
+	font-family: verdana;
+	font-size: .65em;
+	/*font-weight: bold; */
+	border: 5px solid #111c75;
+	background-color: #6071ff;
+	padding: 0em 0em 0em 1em;
+	/* margin: 1em 1em 1em 1em; */
+	text-align: left;
+	color: #EDDAD3;
+}
+
+/*FORMATTING FOR HEADER CONTAINER*/
+
+
+
+/*FORMATTING FOR MAIN CONTAINER*/
+
+.content
+{
+	/*background-color: #fff; */
+	background-color: #112406;
+	padding: 20px;
+	margin: 0 0 1em 0;
+}
+
+/*FLEX SECTION*/
+
+/*FLEX CONTAINER*/
+.boxes
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.boxes2
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*FLEX INFO FOR ALL except footer BOXES*/
+
+.box
+{
+	/* border: 1px solid blue; */
+	padding: 10px;
+	margin: 10px;
+	
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 200px;
+	/* flex: 1 2 200px; */ /* shorthand* for flex-grow, flex-shrink, flex-basis */
+	min-width: 1px;
+	color: #eddad3;
+}
+
+.fbox
+{
+	/*border: 1px solid blue; */
+	padding: 10px;
+	margin: 10px;
+	background-color: #497f29;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 200px;
+	/* flex: 1 2 200px; */ /* shorthand* for flex-grow, flex-shrink, flex-basis */
+	min-width: 1px;
+	border: 5px solid #111c75;
+	color: #EDDAD3;
+}
+
+/*FLEX INFORMATION SPECIFIC TO CERTAIN BOXES */
+.box1
+{
+	order: 1;
+	border: 5px solid #111c75;
+	background-color: #6071ff;
+	font-family: "Tempus Sans ITC", papyrus, verdana;
+	min-width: 19em;
+}
+
+.box2
+{
+	flex-grow: 2;
+	order: 2;
+	border: 5px solid #111c75;
+	background-color: #6071ff;
+	font-size: 2em;
+	min-width: 15em;
+}
+
+.box3
+{
+	order: 3;
+	border: 5px solid orange;
+	background-color: blue;
+}
+
+.fbox1
+{
+	order: 1;
+	flex-grow: 2;
+	/*border: 5px solid orange; */
+	
+}
+
+.fbox2
+{
+	/*flex-grow: 2; */
+	order: 2;
+	/*border: 5px solid green;*/
+}
+
+.fbox3
+{
+	order: 3;
+	/* border: 5px solid orange; */
+	text-align: center;
+}
+
+/*HEADER BOXES*/
+.boxh
+{
+	order: 1;
+}
+
+.boxh2
+{
+	order: 2;
+	flex-grow: 3;
+	align-items: center;
+}
+
+/*NAV BOXES*/
+.boxn
+{
+	font-size: 3em;
+	flex-basis: 4em;
+	text-align: center;
+	border: .2em solid #111c75;
+	background-color: #6071ff;
+	min-width: 5em;
+}
+
+/*INTRO VIDEO BOX*/
+.boxv
+{
+	min-width: 40em;
+}
+
+/*ABOUT ME IMAGE*/
+.boxi
+{
+	max-width: 25em;
+	margin: auto;
+}
+
+/*"ABOUT THE AUTHOR" BOX*/
+.boxa
+{
+	/*margin: 10em 2em 10em 2em;*/
+	margin: auto;
+}
+
+/*END FLEX SECTION*/

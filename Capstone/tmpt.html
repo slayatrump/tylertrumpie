@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="Keyword" content="biome, biomes"/>
+		<meta name="Description" content="3rd grade educational site on biomes"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<title>Biomes for 3rd Graders</title>
+	</head>
+	
+	<body>
+		<!--BANNER STARTS HERE-->
+		<header>
+			<div class="boxes2">
+				<div class="boxh">
+					<img class="logo" src="images/logo3.png" alt="Biome Life Logo"/>
+					
+				</div>
+				<div class="boxh2">
+					<a href="index.html">Biome Life</a>
+				</div>
+			</div>
+		</header>
+		
+		<!--NAVIGATION-->
+		<nav>
+			<div class="boxes">
+				<div class="box boxn" style="order: 1;">
+					<a href="aqua.html">Aquatic</a>
+				</div>
+				<div class="box boxn" style="order: 2;">
+					<a href="arct.html">Arctic</a>
+				</div>
+				<div class="box boxn" style="order: 3;">
+					<a href="arid.html">Arid</a>
+				</div>
+				<div class="box boxn" style="order: 4;">
+					<a href="taig.html">Taiga</a>
+				</div>
+				<div class="box boxn" style="order: 5;">
+					<a href="trop.html">Tropical</a>
+				</div>
+				<div class="box boxn" style="order: 6;">
+					<a href="tund.html">Tundra</a>
+				</div>
+			</div>
+		</nav>
+		<!--THE MAIN CONTENT STARTS HERE-->
+		<div class="content">
+		<!--CODE THAT MAKES THE MAIN FLEX CONTAINER-->
+			<div class="boxes">
+			<!-- CODE THAT MAKES THE FLEX BOX  THE BOX IS SPECS THAT APPLY TO ALL FLEX BOXES  THE BOX1 BOX2 BOX3 ARE SPECIFIC SPECS-->
+				<div class="box box1">
+					<h1>The Temperate Biome</h1><br/>
+					
+				</div>
+				<div class="box box1 boxv">
+					<img class="center" src="images/tmpt.jpg" alt="Temperate biome"/>
+				</div>
+			</div>
+			<div class="boxes">
+				<div class="box box2">
+					<img class="animal" src="images/bear.jpg" alt="Brown bear"/>
+					<p>&nbsp; &nbsp; The temperate biome is very different than the rest of the biomes because it has seasons.  Each of the animals here have ways of dealing with the cold of winter and the heat in the summer.  Some ways include hibernating like the bear during the winter or creating a shady den to stay cool in during the summer.</p>
+					<p>&nbsp; &nbsp; Common animals that live here are bears, deer, sqiurrels, and raccoons.</p>
+					<p>&nbsp; &nbsp; Weather here is always different based on when you are here.  In the winter it will be cold and snowy.  Spring has a lot of rain and warm air.  Summer brings on the heat.  Autumn has windy days and cool rain.</p>
+				</div>
+			</div>
+		</div>
+		<!--MAIN CONTENT ENDS HERE-->
+		
+		<!--FOOTER BEGINS HERE-->
+		<footer>
+			<div class="boxes">
+				<article class="fbox fbox1">
+					<a rel="license" href="http://creativecommons.org/licesnses/by-nc/4.0/">
+						<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/1/by-nc/4.0/88x31.png"/>
+					</a><br/>
+					This work is licensed under<br/> a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial <br/>4.0 International License
+					</a>.
+				</article>
+				<article class="fbox fbox2">
+					Last Updated:
+						<!--JAVASCRIPT STARTS HERE-->
+						<script>
+							var mydate=new Date()
+							var year=mydate.getYear()
+							if(year<1000) year+=1900
+							var day=mydate.getDay()
+							var month=mydate.getMonth()
+							var daym=mydate.getDate()
+							if (daym<10) daym="0"+daym
+							var dayarray=new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+							var montharray=new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+							document.write(""+montharray[month]+" "+daym+","+year+"")
+						</script>
+						<!--JAVASCRIPT ENDS HERE-->
+				</article>
+				<article class="fbox fbox3">
+					<a href="../gallery.html">Back to Gallery</a>
+				</article>
+			</div>
+		</footer>
+	</body>
+</html>
