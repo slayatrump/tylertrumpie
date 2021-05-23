@@ -314,6 +314,7 @@ footer
 	background-color: #5989bf;
 	min-width: 25em;
 	max-width: 30em;
+	align-items: center;
 }
 
 .box8
@@ -387,8 +388,14 @@ footer
 	min-width: 5em;
 }
 
-/*ABOUT ME IMAGE*/
+/*IMAGE CLASSES*/
 .boxi
+{
+	max-width: 25em;
+	margin: auto;
+}
+
+.gameImage
 {
 	max-width: 25em;
 	margin: auto;
